@@ -1,0 +1,137 @@
+{
+  "drinkList": [
+    {
+      "Name": "Margarita",
+      "Ingredients": [
+        "Tequila",
+        "Triple Sec",
+        "Lime",
+        "Simple Syrup"
+      ],
+      "Recipe": "Rim chilled glass with salt (Optional) Combine ice and equal parts of all ingredients into a cocktail shaker Shake and serve into glass"
+    },
+    {
+      "Name": "Gin and Tonic",
+      "Ingredients": [
+        "Gin",
+        "Tonic Water",
+        "Lime"
+      ],
+      "Recipe": "Mix 2 parts tonic water with 1 part gin in cup over ice Add lime juice to taste and serve with lime garnish"
+    },
+    {
+      "Name": "Old Fashioned",
+      "Ingredients": [
+        "Whiskey",
+        "Simple Syrup",
+        "Bitters"
+      ],
+      "Recipe": "Combine 2 parts whiskey or bourbon with 1 part simple Syrup over ice add a few dashes of bitters to taste Garnish with orange slice and a cherry"
+    },
+    {
+      "Name": "Martini",
+      "Ingredients": [
+        "Gin",
+        "Vermouth"
+      ],
+      "Recipe": "Mix 1 part vermouth with 6 parts gin in a chilled glass Optionally, add olive brine or a twist of lemon"
+    },
+    {
+      "Name": "Moscow Mule",
+      "Ingredients": [
+        "Vodka",
+        "Ginger Beer",
+        "Lime"
+      ],
+      "Recipe": "Mix 1 part vodka with 2 parts ginger beer over ice in a chilled copper cup Add lime juice to taste"
+    },
+    {
+      "Name": "Amaretto Sour",
+      "Ingredients": [
+        "Amaretto",
+        "Whiskey",
+        "Lemon",
+        "Simple Syrup"
+      ],
+      "Recipe": "Combine 3 parts amaretto, 1 Part whiskey, 1 part simple syrup over ice in a cocktail shaker Shake, strain and serve in glass Add lemon juice to taste"
+    },
+    {
+      "Name": "Pina Colada",
+      "Ingredients": [
+        "Pineapple",
+        "Malibu",
+        "Rum",
+        "Coconut Milk"
+      ],
+      "Recipe": "Blend equal parts malibu and white rum, coconut milk, pineapple, and ice Serve in chilled glass with pineapple or lime garnish"
+    },
+    {
+      "Name": "Mojito",
+      "Ingredients": [
+        "Rum",
+        "Soda Water",
+        "Mint",
+        "Lime",
+        "Simple Syrup"
+      ],
+      "Recipe": "Muddle lime juice, simple syrup, and mint in glass Add 2 parts rum and 3 parts soda water Stir and Enjoy"
+    },
+    {
+      "Name": "Whiskey Sour",
+      "Ingredients": [
+        "Whiskey",
+        "Lemon",
+        "Simple Syrup"
+      ],
+      "Recipe": "Combine 2 part lemon juice, 1 part simple syrup, and 1 part whiskey in glass over ice Stir, Garnish with a cherry"
+    },
+    {
+      "Name": "Daiquriri",
+      "Ingredients": [
+        "Rum",
+        "Lime",
+        "Simple Syrup"
+      ],
+      "Recipe": "Combine 2 parts rum, 1 part lime juice, 1 part syrup in shaker with ice Shake and strain into chilled glass garnish with lime"
+    },
+    {
+      "Name": "Long Island",
+      "Ingredients": [
+        "Vodka",
+        "Gin",
+        "Rum",
+        "Tequila",
+        "Triple Sec",
+        "Sweet and Sour Mix",
+        "Coca Cola"
+      ],
+      "Recipe": "Combine equal parts of all liquors in glass with ice add spash of coca cola and sweet and sour mix Stir and enjoy"
+    },
+    {
+      "Name": "Negroni",
+      "Ingredients": [
+        "Gin",
+        "Campari",
+        "Vermouth"
+      ],
+      "Recipe": "Combine equal parts of all ingreients in glass over ice"
+    },
+    {
+      "Name": "Dark and Stormy",
+      "Ingredients": [
+        "Rum",
+        "Ginger Beer",
+        "Lime"
+      ],
+      "Recipe": "Combine 2 parts rum, 2 parts ginger beer, and 1 part lime to shaker with ice Shake and strain in to glass Garnish with lime"
+    },
+    {
+      "Name": "Screw Driver",
+      "Ingredients": [
+        "Vodka",
+        "Orange Juice"
+      ],
+      "Recipe": "Combine ingreients to taste and stir"
+    }
+  ]
+}

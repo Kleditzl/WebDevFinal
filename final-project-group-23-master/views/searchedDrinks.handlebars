@@ -1,0 +1,13 @@
+<main class="drink-container">
+
+    <div class="sidebar">
+        {{> sidebar}}
+    </div>
+
+    <div class="posts">
+        {{#each drinkData}}
+        {{> drinkcard}}
+        {{/each}}
+    </div>
+
+</main>

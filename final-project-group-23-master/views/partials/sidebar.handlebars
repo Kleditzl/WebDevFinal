@@ -1,0 +1,9 @@
+<h1 style="text-align: center;">Filter By Owned Ingredients</h1>
+<form action="/filter" method="post">
+    {{#each ing}}
+        <input type="checkbox" name="ingredients" value="{{this}}">
+        <label class="ingre-label">{{this}}</label><br>
+    {{/each}}
+    <input id="sub-button" type = "submit">
+</form>
+

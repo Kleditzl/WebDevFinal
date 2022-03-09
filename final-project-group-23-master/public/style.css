@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    background-image: url('/images/woodplanks.jpg');
+    background-repeat: repeat;
+}
+
+.drink-container {
+    margin-top: 10px;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation Bar*/
+.navbar {
+    background-color: #004000;
+    font-size: 18px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px black;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navtab {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .navtab a {
+        float: left;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navtab a:hover {
+        background-color: #333;
+    }
+
+    .navtab.active {
+        box-shadow: inset 0 -3px #319df6;
+    }
+
+    .navtab a:visited {
+        color: white;
+    }
+
+    .navtab form {
+        float: right;
+        padding: 12px 14px 12px 16px;
+    }
+
+    .navtab img {
+        float: left;
+        width: 20%;
+        height: 50px;
+        padding-right: 20px;
+    }
+
+#search-bar {
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #CCC;
+}
+
+/*Side Bar*/
+.sidebar {
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    margin: 0px 10px 10px 10px;
+    background: lightgray;
+    overflow-x: hidden;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #004000;
+    box-shadow: 2px 4px 8px black;
+}
+
+    .sidebar h1 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+#sub-button {
+    margin-top: 10px;
+    background-color: #004000;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+}
+
+.posts {
+    margin-left: 245px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Drink Recipes*/
+
+.drink-container {
+    margin-top: 10px;
+}
+
+.drink-card {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #004000;
+    height: 400px;
+    width: 330px;
+    background-color: lightgray;
+    border-radius: 10%;
+    overflow: auto;
+    box-shadow: 4px 6px 8px black;
+}
+
+    .drink-card::-webkit-scrollbar {
+        display: block;
+        width: 6px;
+    }
+
+    .drink-card::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .drink-card::-webkit-scrollbar-thumb {
+        background-color: grey;
+        border-radius: 10px;
+        border-right: none;
+        border-left: none;
+    }
+
+    .drink-card::-webkit-scrollbar-track-piece:end {
+        background: transparent;
+        margin-bottom: 40px;
+    }
+
+    .drink-card::-webkit-scrollbar-track-piece:start {
+        background: transparent;
+        margin-top: 40px;
+    }
+
+.name {
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+    text-shadow: 2px 2px 3px grey;
+    font-family: monospace;
+}
+
+.ingredients {
+    position: relative;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+    .ingredients ul {
+        list-style-type: none;
+        border-left: 5px solid #004000;
+        background-color: #cacaca;
+        padding: 5px 20px;
+        font-family: sans-serif;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+.recipe {
+    position: relative;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+    .recipe p {
+        padding-left: 10px;
+        font-family: serif;
+        background-color: #d5d5d5;
+    }
+
+.error-container {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+    .error-container h2 {
+        color: white;
+        margin: 10px 0;
+        font-size: 96px;
+        font-weight: 100;
+    }
+
+    .error-container h3 {
+        color: white;
+        margin: 10px 0;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+.add-container{
+    width: auto;
+    max-width: 700px;
+    min-width: 450px;
+    min-height: 300px;
+    margin: 40px auto;
+    background-color:rgba(210, 180, 140, 0.753);
+    border-radius: 10px;
+    border: 2px solid #004000;
+}
+
+.add-header{
+    color: Black;
+    margin: 10px 0;
+    font-size: 75px;
+    font-weight: 600;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 3px grey;
+    font-family: monospace;
+}
+
+.insert{
+    width: auto;
+    max-width: 700px;
+    min-width: 400px;
+    max-height: 400px;
+    margin: 40px;
+
+    border-radius: 20px;
+
+    text-shadow: 2px 2px 3px grey;
+    font-family: monospace;
+}
+
+.add-body{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    
+}
+
+.drinkrecipe text{
+    min-height: 64px;
+}
+
+.make-drink-header{
+    font-size: 45px;
+}
+
+.drink-input{
+    display:flex;
+    align-items: center;
+    font-size: 27px;
+    margin: 5px 0;
+    min-height: 64px;
+}
+
+input#drinkNameTextBox{
+    flex: 6 200px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+input#drinkIngTextBox{
+    flex: 6 200px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+input#drinkRecipeTextBox{
+    flex: 6 200px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.add-button {
+    margin-right: 20px;
+    position: relative;
+    left: 90%;
+    border: none;
+    height: 35px;
+    width: 60px;
+    padding: 3px;
+    background-color: #004000;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.instructions{
+    font-size: 25px;
+    font-weight: 400;
+    position:relative;
+    bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
